@@ -23,7 +23,7 @@ This project is a Payroll System built using React.js for the frontend, NestJS f
 Ensure you have the following installed on your system:
 
 - Node.js (v16 or higher)
-- npm or yarn
+- npm
 - PostgreSQL (or any other supported database)
 
 ## Installation
@@ -40,8 +40,6 @@ Ensure you have the following installed on your system:
 
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
 3. Create a `.env` file in the `backend` directory and add the necessary environment variables. An example `.env` file might include:
@@ -63,8 +61,6 @@ Ensure you have the following installed on your system:
 
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
 ## Running the Project
@@ -81,8 +77,6 @@ Ensure you have the following installed on your system:
 
    ```bash
    npm run start
-   # or
-   yarn start
    ```
 
 ### Frontend
@@ -97,8 +91,6 @@ Ensure you have the following installed on your system:
 
    ```bash
    npm run dev
-   # or
-   yarn start
    ```
 
 ## Folder Structure
