@@ -3,6 +3,17 @@ function LoginPage() {
         <div className="h-screen mx-auto mt-10 flex flex-col items-center justify-center">
             <form className="bg-white p-8 shadow rounded-lg max-w-96 w-full">
                 <h1 className="text-2xl font-bold mb-6 text-center">Login Admin</h1>
+                <div className="mb-6">
+                    <label htmlFor="role" className="block text-sm font-medium text-gray-700">Role</label>
+                    <select
+                        id="role"
+                        className="p-2 mt-1 block w-full border border-gray-300 rounded-md shadow-sm sm:text-sm outline-none"
+                        required
+                    >
+                        <option value="admin">Admin</option>
+                        <option value="pegawai">Pegawai</option>
+                    </select>
+                </div>
                 <div className="mb-4">
                     <label htmlFor="username" className="block text-sm font-medium text-gray-700">Username</label>
                     <input

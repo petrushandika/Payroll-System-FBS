@@ -35,7 +35,7 @@ function ReportPage() {
     };
 
     return (
-        <div className="w-full bg-white rounded-lg my-14">
+        <div className="w-full bg-white rounded-lg my-8">
             <h1 className="text-lg font-medium mb-4">Report Page</h1>
             <div className="flex flex-row gap-x-5 mb-4">
                 <button

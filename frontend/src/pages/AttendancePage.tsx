@@ -34,7 +34,7 @@ function AbsensiPage() {
     };
 
     return (
-        <div className="w-full bg-white rounded-lg my-14">
+        <div className="w-full bg-white rounded-lg my-8">
             <h1 className="text-lg font-medium mb-4">Absensi</h1>
             <div className="flex flex-row gap-x-5 mb-4">
                 <button className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">

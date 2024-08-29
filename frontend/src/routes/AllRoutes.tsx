@@ -10,13 +10,14 @@ import Layout from "../layout/Layout";
 function AllRoutes() {
     return (
         <Routes>
-            <Route path="/" element={<Layout />} >
-                <Route path="/auth/login" element={<LoginPage />} />
-                <Route path="/attendance" element={<AttendancePage />} />
-                <Route path="/employee" element={<EmployeePage />} />
-                <Route path="/salary" element={<SalaryPage />} />
-                <Route path="/working-day" element={<WorkingDayPage />} />
-                <Route path="/report" element={<ReportPage />} />
+            <Route path="/auth/login" element={<LoginPage />} />
+
+            <Route path="/" element={<Layout />}>
+                <Route path="attendance" element={<AttendancePage />} />
+                <Route path="employee" element={<EmployeePage />} />
+                <Route path="salary" element={<SalaryPage />} />
+                <Route path="working-day" element={<WorkingDayPage />} />
+                <Route path="report" element={<ReportPage />} />
             </Route>
         </Routes>
     );

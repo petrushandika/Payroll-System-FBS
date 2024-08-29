@@ -20,7 +20,7 @@ function Layout() {
                 <div className="flex flex-row w-full h-full">
                     <div className="w-1/5 h-full mt-14" />
                     <div className="w-4/5 mt-14 z-20">
-                        <div className="w-full h-full bg-transparent p-8">
+                        <div className="w-full h-full bg-transparent px-8">
                             <Outlet />
                         </div>
                     </div>
