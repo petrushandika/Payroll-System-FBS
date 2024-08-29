@@ -1,13 +1,17 @@
 import * as bcrypt from 'bcrypt';
 
 class Hasher {
-  salt: 10;
+  private readonly saltRounds: number;
 
-  hashPassword(password: string): Promise<string> {
-    return bcrypt.hash(password, +this.salt);
+  constructor() {
+    this.saltRounds = 10;
   }
 
-  comparePassword(password: string, hash: string) {
+  async hashPassword(password: string): Promise<string> {
+    return bcrypt.hash(password, this.saltRounds);
+  }
+
+  async comparePassword(password: string, hash: string): Promise<boolean> {
     return bcrypt.compare(password, hash);
   }
 }
